@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#d0d1fc;
+    margin: 0px;
+    overflow-x: hidden;
+    
+}
+.navbar{
+    width: 100vw;
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    color: white;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: large;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.navbar a:hover{
+    color: red;
+}
+.container{
+    height: 40vh;
+    background-color: black;
+}
+.hding{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    color: white;
+}
+
+
+/* .item1 { grid-area: menu; }
+.item2 { grid-area: footer; }
+.grid-container {
+    display: grid;
+    grid-gap: 3px;
+    
+    grid-template-areas:
+    'menu footer footer footer footer footer';
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+.fspy{
+   height: 130vh;
+   color: black;
+}
+.card-body{
+    padding: 20px;
+    
+}
+
+.ab{
+    background-color: white;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 20px;
+    margin-top: 0px;
+    float: left;
+    height: 500px;
+    width: 340px;
+}
+.lnk{
+    color: black;
+}
+.lnk :hover{
+    color: red;
+}
+.zoom{
+    overflow: hidden;
+    position: relative;
+    transition: 0.8s ease;
+}
+.zoom:hover .image{
+    transform: scale(1.3);
+    opacity: 0.8;
+}
+.image{
+    transition: 0.8s ease;
+}
+
+footer{
+    background-color: rgb(61, 61, 61);
+    height: 100px;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
